@@ -1,64 +1,68 @@
-##Resumo do Projeto:
+## Resumo do Projeto:
 
 Este projeto é um sistema de gerenciamento de hotel desenvolvido usando Flask (Python) no backend e Vue.js (JavaScript) no frontend. O sistema permite criar, atualizar e excluir quartos de hotel, registrar check-ins e check-outs de hóspedes e exibir informações detalhadas sobre os quartos e os hóspedes.
 
-##Uso de Linguagens e Tecnologias:
-#Backend (Flask):
+## Uso de Linguagens e Tecnologias:
 
-Linguagem: Python
-Framework: Flask
-Banco de Dados: SQLite (para este exemplo)
-Dependências: Flask, Flask-CORS, SQLAlchemy (opcional)
+### Backend (Flask):
 
-#Frontend (Vue.js):
-Linguagem: JavaScript (ES6+)
-Framework: Vue.js
-Dependências: Vue CLI, Vue Router (opcional), axios (opcional)
-Instalação e Uso:
+- **Linguagem**: Python
+- **Framework**: Flask
+- **Banco de Dados**: SQLite (para este exemplo)
+- **Dependências**: Flask, Flask-CORS, SQLAlchemy (opcional)
 
-##Instalação e Uso:
+### Frontend (Vue.js):
 
-Certifique-se de ter o Python instalado em seu sistema. Você pode baixá-lo em python.org.
+- **Linguagem**: JavaScript (ES6+)
+- **Framework**: Vue.js
+- **Dependências**: Vue CLI, Vue Router (opcional), axios (opcional)
 
-Instale as dependências do Flask:
-``
-pip install Flask flask-cors
-``
+## Instalação e Uso:
 
-Execute o servidor Flask:
-``
-python app.py
-``
+1. **Backend (Flask)**:
 
-O servidor estará disponível em **http://localhost:5000**.
+    Certifique-se de ter o Python instalado em seu sistema. Você pode baixá-lo em [python.org](https://www.python.org/).
 
-Certifique-se de ter o Node.js e o npm instalados em seu sistema. Você pode baixá-los em nodejs.org.
+    Instale as dependências do Flask:
+    ```
+    pip install Flask flask-cors
+    ```
 
-Instale o Vue CLI globalmente:
-``
-npm install -g @vue/cli
-``
+    Execute o servidor Flask:
+    ```
+    python app.py
+    ```
 
-Navegue até o diretório frontend:
-``
-cd frontend
-``
+    O servidor estará disponível em **http://localhost:5000**.
 
-Instale as dependências do frontend:
-``
-npm install
-``
+2. **Frontend (Vue.js)**:
 
-Inicie o servidor:
-``
-npm run serve
-``
+    Certifique-se de ter o Node.js e o npm instalados em seu sistema. Você pode baixá-los em [nodejs.org](https://nodejs.org/).
 
-O servidor estará disponível em **http://localhost:8080**.
+    Instale o Vue CLI globalmente:
+    ```
+    npm install -g @vue/cli
+    ```
 
+    Navegue até o diretório frontend:
+    ```
+    cd frontend
+    ```
 
+    Instale as dependências do frontend:
+    ```
+    npm install
+    ```
 
-##Observações:
-Certifique-se de ter o servidor Flask em execução para que o frontend possa se comunicar com o backend.
-Este é um projeto básico e pode ser expandido para adicionar mais funcionalidades conforme necessário.
-Divirta-se codificando e explorando as tecnologias Flask e Vue.js!
+    Inicie o servidor:
+    ```
+    npm run serve
+    ```
+
+    O servidor estará disponível em **http://localhost:8080**.
+
+## Observações:
+
+- Certifique-se de ter o servidor Flask em execução para que o frontend possa se comunicar com o backend.
+- Este é um projeto básico e pode ser expandido para adicionar mais funcionalidades conforme necessário.
+- Divirta-se codificando e explorando as tecnologias Flask e Vue.js!
